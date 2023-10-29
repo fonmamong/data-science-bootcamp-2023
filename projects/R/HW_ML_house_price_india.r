@@ -58,11 +58,10 @@ lm_model <- train(price ~ . ,
 p<-predict (lm_model, newdata = test_df)
 
 #4 evaluate model 
+lm_model
 
 #mean absolute error
-mae <- mean(abs(p - test_df$price))
+(mae <- mean(abs(p - test_df$price)))
 
 #root mean square error 
-rmse <-  sqrt(mean((p - test_df$price)**2))
-
-
+(rmse <-  sqrt(mean((p - test_df$price)**2)))
