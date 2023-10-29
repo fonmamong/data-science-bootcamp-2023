@@ -14,5 +14,7 @@ This bootcamp has 10 sprint as follow.
   - Essential Machine Learning for Data Analyst
   - Python programming
   - Essential Python for Data Analyst
-  - Dashboard 
+  - Dashboard
 
+    You can find me on Linkined 
+www.linkedin.com/in/suthumma
