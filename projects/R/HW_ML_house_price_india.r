@@ -15,9 +15,8 @@ houseprice_india %>%
 
 glimpse(houseprice_india)
 
-# Plot distribution of Price
+# plot distribution of Price
 hist(houseprice_india$price)
-
 houseprice_india$price <- log(houseprice_india$price)
 hist(houseprice_india$price)
 
@@ -32,9 +31,6 @@ full_df<- houseprice_india %>%
           price
           )
 
-
-clean_df <- full_df %>% 
-  drop_na()
 
 #1 split data 
 split_df <- function(df) {
